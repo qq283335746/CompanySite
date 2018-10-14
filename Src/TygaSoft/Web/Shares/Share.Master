@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Share.master.cs" Inherits="TygaSoft.Web.Shares.Share" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="keywords" content="广州矽云信息科技官网" />
+    <meta name="description" content="广州矽云信息科技，专注于10年以上的wms（仓储配送一体化）、资产管理等软件（B/S，C/S，移动）解决方案 " />
+    <title>广州矽云信息科技有限公司 官网</title>
+    <link href="~/Scripts/Plugins/jeasyui/themes/bootstrap/easyui.css" rel="stylesheet" type="text/css" />
+    <link href="~/Scripts/Plugins/jeasyui/themes/icon.css" rel="stylesheet" type="text/css" />
+    <script src="/sw/Scripts/Plugins/jeasyui/jquery.min.js" type="text/javascript"></script>
+    <script src="/sw/Scripts/Plugins/jeasyui/jquery.easyui.min.js" type="text/javascript"></script>
+    <script src="/sw/Scripts/Plugins/jeasyui/locale/easyui-lang-zh_CN.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="cphHead" runat="server"></asp:ContentPlaceHolder>
+    <link href="~/Styles/Main.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/Share.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:SiteMapPath ID="SitePaths" runat="server" ClientIDMode="Static" ParentLevelsDisplayed="1" SiteMapProvider="ShareSiteMapProvider" CssClass="hide" />
+        <asp:PlaceHolder ID="phShareTop" runat="server"></asp:PlaceHolder>
+        <asp:ContentPlaceHolder ID="cphMain" runat="server"></asp:ContentPlaceHolder>
+        <asp:PlaceHolder ID="phShareFooter" runat="server"></asp:PlaceHolder>
+    </div>
+    </form>
+    <script type="text/javascript" src="/sw/Scripts/Shares/ShareMaster.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            ShareMaster.Init();
+        })
+    </script>
+</body>
+</html>
