@@ -43,13 +43,13 @@
     <Compile Include="AutoCode\AnnouncementInfo.cs" />
     <Compile Include="AutoCode\ContentDetailInfo.cs" />
     <Compile Include="AutoCode\ContentTypeInfo.cs" />
+    <Compile Include="LoginInfo.cs" />
     <Compile Include="AutoCode\PictureContentInfo.cs" />
     <Compile Include="AutoCode\ProductOnlineBookInfo.cs" />
     <Compile Include="AutoCode\RiskTestQuestionAnswerInfo.cs" />
     <Compile Include="AutoCode\RiskTestQuestionInfo.cs" />
     <Compile Include="AutoCode\UserInfo.cs" />
     <Compile Include="ContentTypeInfo.cs" />
-    <Compile Include="LoginInfo.cs" />
     <Compile Include="MyAnnouncementInfo.cs" />
     <Compile Include="MyContentDetailInfo.cs" />
     <Compile Include="MyContentTypeInfo.cs" />
