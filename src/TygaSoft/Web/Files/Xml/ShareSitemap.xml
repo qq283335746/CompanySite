@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap>
+  <Xel Url="" Title="前台功能菜单" Description="" Roles="" Id="5acd593a-bfb7-4b95-88b3-6cc09417fbf9" ParentId="c56c3692-84ba-4330-8f86-dc9ee517547d">
+    <Add Url="" Title="汇凯博资管" Description="" Roles="" Id="4b43ae8f-2a46-427a-b878-5e0059fa537a" ParentId="5acd593a-bfb7-4b95-88b3-6cc09417fbf9">
+      <Add Url="~/index.html" Title="首页" Description="" Roles="" Id="a1fd9b6f-e777-4533-94c6-34f647fc3d60" ParentId="4b43ae8f-2a46-427a-b878-5e0059fa537a"></Add>
+      <Add Url="" Title="走进汇凯博资管" Description="" Roles="" Id="f7f1b705-03d0-4b41-a5fe-b602daa01b01" ParentId="4b43ae8f-2a46-427a-b878-5e0059fa537a">
+        <Add Url="~/s/t.html?Id=8bd67e44-f444-409d-88d6-2d7d8f6c6ba2" Title="公司简介" Description="" Roles="" Id="8bd67e44-f444-409d-88d6-2d7d8f6c6ba2" ParentId="f7f1b705-03d0-4b41-a5fe-b602daa01b01"></Add>
+        <Add Url="~/s/t.html?Id=fdf0b598-994b-4978-ab98-6c635d72b51b" Title="管理团队" Description="" Roles="" Id="fdf0b598-994b-4978-ab98-6c635d72b51b" ParentId="f7f1b705-03d0-4b41-a5fe-b602daa01b01"></Add>
+        <Add Url="~/s/t.html?Id=229e1149-40d3-4377-98a3-c6e32edcd75b" Title="投资理念" Description="" Roles="" Id="229e1149-40d3-4377-98a3-c6e32edcd75b" ParentId="f7f1b705-03d0-4b41-a5fe-b602daa01b01"></Add>
+        <Add Url="~/s/t.html?Id=b43accbd-a425-4cba-ad70-76cb90bc4e00" Title="招贤纳士" Description="" Roles="" Id="b43accbd-a425-4cba-ad70-76cb90bc4e00" ParentId="f7f1b705-03d0-4b41-a5fe-b602daa01b01"></Add>
+        <Add Url="~/s/t.html?Id=f9985998-7547-44ff-ac57-355dc88a1791" Title="联系我们" Description="" Roles="" Id="f9985998-7547-44ff-ac57-355dc88a1791" ParentId="f7f1b705-03d0-4b41-a5fe-b602daa01b01"></Add>
+      </Add>
+      <Add Url="" Title="汇凯博资管推荐" Description="" Roles="" Id="6897c511-a8fb-4a13-9517-b3530870a1aa" ParentId="4b43ae8f-2a46-427a-b878-5e0059fa537a">
+        <Add Url="~/s/t.html?Id=de2dfcc2-0511-4aa0-91f6-dc69369cc4c2" Title="汇凯博资管动态" Description="" Roles="" Id="de2dfcc2-0511-4aa0-91f6-dc69369cc4c2" ParentId="6897c511-a8fb-4a13-9517-b3530870a1aa"></Add>
+        <Add Url="~/s/t.html?Id=9c52b0e3-2a3b-45b2-9fa7-1d7e7711e119" Title="汇凯博资管视点" Description="" Roles="" Id="9c52b0e3-2a3b-45b2-9fa7-1d7e7711e119" ParentId="6897c511-a8fb-4a13-9517-b3530870a1aa"></Add>
+        <Add Url="~/s/t.html?Id=111c997f-f3d0-4b58-8b64-e77cb5b73d9e" Title="汇凯博资管荐文" Description="" Roles="" Id="111c997f-f3d0-4b58-8b64-e77cb5b73d9e" ParentId="6897c511-a8fb-4a13-9517-b3530870a1aa"></Add>
+      </Add>
+      <Add Url="" Title="产品与服务" Description="" Roles="" Id="263b652f-f649-4f5c-8a1d-948f3601d827" ParentId="4b43ae8f-2a46-427a-b878-5e0059fa537a">
+        <Add Url="~/s/a.html" Title="网上预约" Description="" Roles="" Id="ccfd7dfa-627f-4e0c-972e-4d8f005a77d8" ParentId="263b652f-f649-4f5c-8a1d-948f3601d827"></Add>
+        <Add Url="~/s/t.html?Id=ad52922a-e7fa-4aeb-b4c4-94c8c314944b" Title="认购流程" Description="" Roles="" Id="ad52922a-e7fa-4aeb-b4c4-94c8c314944b" ParentId="263b652f-f649-4f5c-8a1d-948f3601d827"></Add>
+        <Add Url="~/s/t.html?Id=50e7736e-b684-4437-99b9-a9c67d0cfe45" Title="产品咨询" Description="" Roles="" Id="50e7736e-b684-4437-99b9-a9c67d0cfe45" ParentId="263b652f-f649-4f5c-8a1d-948f3601d827"></Add>
+        <Add Url="~/s/g.html" Title="风险测试" Description="" Roles="" Id="3da50c8c-0217-4524-b602-fdce081e9718" ParentId="263b652f-f649-4f5c-8a1d-948f3601d827"></Add>
+      </Add>
+      <Add Url="" Title="客服中心" Description="" Roles="" Id="da6f4ea2-bdb9-4939-bcb8-a07840f017a6" ParentId="4b43ae8f-2a46-427a-b878-5e0059fa537a">
+        <Add Url="~/s/y.html" Title="客户登录" Description="" Roles="" Id="65b52ec2-735a-4bba-bf62-35e59ec6b1f6" ParentId="da6f4ea2-bdb9-4939-bcb8-a07840f017a6"></Add>
+        <Add Url="~/s/t.html?Id=8d5231b5-5601-4771-aec5-a44feb3de5b2" Title="常见问题" Description="" Roles="" Id="8d5231b5-5601-4771-aec5-a44feb3de5b2" ParentId="da6f4ea2-bdb9-4939-bcb8-a07840f017a6"></Add>
+      </Add>
+    </Add>
+  </Xel>
+</siteMap>
