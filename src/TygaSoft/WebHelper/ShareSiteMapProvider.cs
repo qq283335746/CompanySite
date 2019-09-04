@@ -31,7 +31,7 @@ namespace TygaSoft.WebHelper
                 Guid.TryParse(WebCommon.GetQueryStringByKey(rawUrl, "Id"), out id);
             }
             if(!id.Equals(Guid.Empty)) currNode = root.Descendants().First(x => x.Attribute("Id").Value == id.ToString());
-            else currNode = root.Descendants().First(x => x.Attribute("Url").Value.ToLower() == rawUrl.ToLower());
+            else currNode = root.Descendants().First(x => x.Attribute("Url").Value.ToLower().Contains(rawUrl.ToLower()));
 
             return new SiteMapNode(this,
                     currNode.Attribute("Id").Value,
